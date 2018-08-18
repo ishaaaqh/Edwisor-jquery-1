@@ -1,0 +1,164 @@
+.box-1{
+  width:90vw;
+  border:1px solid grey;
+  padding:1rem;
+  border-radius:5px;
+  margin-left: 3vw;
+  margin-right: 8vw;
+  background-color: grey;
+  color:pink;
+    box-sizing: content-box;
+}
+.box-2{
+  padding:1rem;
+  border-radius:5px;
+  display:none;
+}
+.box-3{
+  width:90vw;
+  border:1px solid grey;
+  padding:1rem;
+  border-radius:5px;
+  margin-left: 3vw;
+  margin-right: 8vw;
+  background-color: grey;
+  color:pink;
+}
+.box-4{
+  animation: width 3s
+  padding:1rem;
+  border-radius:5px;
+  display:none;
+}
+.box-5{
+  width:90vw;
+  border:1px solid grey;
+  padding:1rem;
+  border-radius:5px;
+  margin-left: 3vw;
+  margin-right: 8vw;
+  background-color: grey;
+  color:pink;
+}
+.box-6{
+  animation: width 3s
+  padding:1rem;
+  border-radius:5px;
+  display:none;
+}
+.display{
+  display:block;
+}
+.navigation ul li{
+  list-style: none;
+
+}
+.navigation ul{
+  display:flex;
+  flex-direction: row;
+  padding-top:1vw;
+}
+.navigation ul li{
+  padding:0px 5px 0px 5px;
+}
+.navigation ul li a, .brand h3 a {
+  text-decoration: none;
+  color:black;
+}
+.navigation ul li a:hover, .brand h3 a:hover{
+color:white;
+}
+#disabled{
+text-decoration : none;
+color:white;
+}
+
+.container2{
+  width:100%;
+  background-color: grey;
+  display:flex;
+  flex-direction:row;
+  padding: 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#search{
+  height:30px;
+  width:200px;
+  border:1px solid grey;
+  border-radius:5px;
+  padding-left: 10px;
+  box-sizing: content-box;
+}
+#search:focus{
+
+  border:3px solid skyblue;
+}
+.start{
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+}
+.end{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.search-btn{
+  padding:7px 15px 7px 15px;
+  color:green;
+  border:1px solid green;
+  border-radius: 5px;
+  background-color: white;
+  transition:  .3s ease-in;
+}
+.search-btn:hover{
+  background-color: green;
+  color:white;
+}
+#close{
+  padding:5px 10px;
+  background-color: pink;
+  color:grey;
+  border:2px solid grey;
+}
+#close a {
+  color:grey;
+}
+#open{
+  padding:5px 10px;
+  background-color: pink;
+  color:grey;
+  border:2px solid grey;
+}
+#open a {
+  color:grey;
+}
+
+@media screen and (max-width:716px){
+.container2{
+  display:flex;
+  flex-wrap:wrap;
+}
+.navigation ul li{
+  padding:0px 2px 0px 2px;
+}
+}
+@media screen and (max-width:451px){
+.end{
+  display:flex;
+  flex-wrap:wrap;
+}
+.start{
+  display:flex;
+  flex-wrap:wrap;
+}
+.container2{
+  padding:5px;
+}
+.navigation ul{
+  padding:0px;
+}
+
+}
